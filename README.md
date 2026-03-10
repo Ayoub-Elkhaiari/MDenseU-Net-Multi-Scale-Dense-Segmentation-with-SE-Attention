@@ -129,7 +129,8 @@ with significantly fewer parameters.
 Predicted segmentation overlays on test samples.
 Colors: **green** = True Positive, **red** = False Positive, **blue** = False Negative.
 
-![Segmentation Results](assets/sample_segmentation.png)
+<img width="1575" height="409" alt="image" src="https://github.com/user-attachments/assets/4a15b8cc-134f-4c5f-b131-26eb7b247948" />
+
 
 MDenseU-Net produces cleaner boundaries with less false positive noise
 around lung edges compared to U-Net, consistent with the lower HD95 and ASSD scores.
@@ -140,7 +141,8 @@ around lung edges compared to U-Net, consistent with the lower HD95 and ASSD sco
 
 Gradient-weighted Class Activation Maps showing where each model focuses attention.
 
-![Grad-CAM](assets/gradcam.png)
+<img width="773" height="403" alt="image" src="https://github.com/user-attachments/assets/12291ca5-021b-4f47-82a0-1f00cfe3a147" />
+
 
 MDenseU-Net shows more fine-grained internal structure attention (vessels, airways)
 compared to U-Net's smoother, more uniform activation — reflecting the multi-scale
@@ -152,7 +154,8 @@ convolutions capturing richer anatomical detail.
 
 Training and validation loss and Dice score over epochs for both models.
 
-![Learning Curves](assets/learning_curves.png)
+<img width="1389" height="490" alt="image" src="https://github.com/user-attachments/assets/81b62309-3659-4258-86f2-719b201fec6c" />
+
 
 MDenseU-Net converges faster and achieves lower training loss (0.1475 vs 0.2483)
 while maintaining better generalization on the validation set.
