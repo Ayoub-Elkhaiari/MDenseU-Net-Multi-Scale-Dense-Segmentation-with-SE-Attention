@@ -46,7 +46,8 @@ benchmarked against standard **U-Net** on the
 
 ## Architecture
 
-![MDenseU-Net Architecture](assets/architecture.png)
+![MDenseU-Net Architecture](<img width="3261" height="1821" alt="architecture" src="https://github.com/user-attachments/assets/407a770c-1018-48c4-9d1f-e0ec1e04c1c7" />
+)
 
 ### MDenseU-Net Design
 
