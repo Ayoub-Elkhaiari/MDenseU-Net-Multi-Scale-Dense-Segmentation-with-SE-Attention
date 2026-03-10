@@ -101,7 +101,7 @@ Both models trained under identical conditions for fair comparison:
 | Weight decay | 1e-5 |
 | Scheduler | CosineAnnealingLR (T_max=50) |
 | Batch size | 8 |
-| Max epochs | 50 |
+| Max epochs | 10 |
 | Early stopping | Patience = 10 on val Dice |
 | Mixed precision | torch.cuda.amp (AMP) |
 | Hardware | Google Colab T4 GPU |
