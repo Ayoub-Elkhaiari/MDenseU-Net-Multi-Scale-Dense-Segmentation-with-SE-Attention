@@ -218,28 +218,6 @@ The notebook will automatically:
 
 ---
 
-## Relevance to Medical AI Research
-
-This project directly addresses core challenges in medical image analysis:
-
-**Segmentation as a foundation for synthesis** — accurate segmentation masks
-are a prerequisite for conditional image generation tasks such as pseudo-CT
-synthesis from MRI, which is central to digital twin frameworks for radiotherapy planning.
-
-**Multi-modal medical imaging** — the multi-scale dense architecture is designed
-to generalize across imaging modalities (CT, MRI, PET), making it transferable
-to multimodal segmentation pipelines.
-
-**Uncertainty and calibration** — the 40% improvement in Brier score and 29%
-improvement in ECE demonstrate that MDenseU-Net produces well-calibrated
-probability outputs, which is critical for clinical deployment where confidence
-estimates must be reliable.
-
-**Parameter efficiency** — achieving superior performance with 52% fewer
-parameters demonstrates that architectural design choices (dense connectivity,
-multi-scale convolutions, SE attention) are more impactful than raw model capacity.
-
----
 
 ## Stack
 
